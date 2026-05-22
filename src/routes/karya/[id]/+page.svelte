@@ -60,7 +60,7 @@
 						{typeLabels[data.work.type] || data.work.type}
 					</span>
 					<span class="px-3 py-1 rounded-lg text-xs font-semibold bg-slate-100 text-slate-600">
-						{levelLabels[data.work.educationLevel] || data.work.educationLevel}
+						{levelLabels[data.work.educationLevel ?? ''] || data.work.educationLevel}
 					</span>
 				</div>
 				{#if data.work.researchDate}
@@ -113,7 +113,7 @@
 					</div>
 					<div>
 						<dt class="text-slate-400 text-xs">Diupload</dt>
-						<dd class="text-slate-700 font-medium">{new Date(data.work.createdAt).toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric' })}</dd>
+						<dd class="text-slate-700 font-medium">{data.work.createdAt ? new Date(data.work.createdAt).toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric' }) : '-'}</dd>
 					</div>
 					{#if data.owner}
 						<div>

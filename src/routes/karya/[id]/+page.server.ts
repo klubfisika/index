@@ -7,7 +7,7 @@ import { eq } from 'drizzle-orm';
 import type { RequestEvent } from '@sveltejs/kit';
 
 export async function load(event: RequestEvent) {
-	const workId = parseInt(event.params.id);
+	const workId = parseInt(event.params.id ?? '');
 	if (isNaN(workId)) throw error(404, 'Karya tidak ditemukan');
 
 	const [work] = await db.select().from(researchWorks).where(eq(researchWorks.id, workId));
