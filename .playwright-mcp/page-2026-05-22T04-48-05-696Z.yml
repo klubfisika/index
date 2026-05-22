@@ -1,0 +1,448 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - button "Toggle navigation" [ref=e11] [cursor=pointer]
+          - link "Homepage" [ref=e17] [cursor=pointer]:
+            - /url: /
+            - img [ref=e18]
+          - generic [ref=e20]:
+            - link "Sign in" [ref=e21] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fopenriset
+            - button "Appearance settings" [ref=e24] [cursor=pointer]:
+              - img
+        - link "openriset" [ref=e26] [cursor=pointer]:
+          - /url: /openriset
+  - main [ref=e29]:
+    - generic [ref=e30]:
+      - generic [ref=e31]:
+        - generic [ref=e33]:
+          - img "@openriset" [ref=e35]
+          - generic [ref=e36]:
+            - heading "OpenRiset" [level=1] [ref=e37]
+            - generic [ref=e39]: Platform arsip & indeksasi riset terbuka — diinisiasi KF13, dikelola komunitas
+            - list:
+              - listitem
+            - list [ref=e41]:
+              - listitem [ref=e42]:
+                - img [ref=e43]
+                - text: Indonesia
+              - listitem [ref=e45]:
+                - img [ref=e46]
+                - link "https://index.klubfisika.or.id" [ref=e48] [cursor=pointer]:
+                  - /url: https://index.klubfisika.or.id
+              - listitem [ref=e49]:
+                - img [ref=e50]
+                - link "kf.teknis@gmail.com" [ref=e52] [cursor=pointer]:
+                  - /url: mailto:kf.teknis@gmail.com
+        - navigation "Organization" [ref=e54]:
+          - list [ref=e56]:
+            - listitem [ref=e57]:
+              - link "Overview" [ref=e58] [cursor=pointer]:
+                - /url: /openriset
+                - img [ref=e59]
+                - text: Overview
+            - listitem [ref=e61]:
+              - link "Repositories" [ref=e62] [cursor=pointer]:
+                - /url: /orgs/openriset/repositories
+                - img [ref=e63]
+                - text: Repositories
+            - listitem [ref=e65]:
+              - link "Projects" [ref=e66] [cursor=pointer]:
+                - /url: /orgs/openriset/projects
+                - img [ref=e67]
+                - text: Projects
+            - listitem [ref=e69]:
+              - link "Packages" [ref=e70] [cursor=pointer]:
+                - /url: /orgs/openriset/packages
+                - img [ref=e71]
+                - text: Packages
+            - listitem [ref=e73]:
+              - link "People" [ref=e74] [cursor=pointer]:
+                - /url: /orgs/openriset/people
+                - img [ref=e75]
+                - text: People
+      - generic [ref=e78]:
+        - generic [ref=e81]:
+          - generic [ref=e83]:
+            - link "README.md" [ref=e86] [cursor=pointer]:
+              - /url: /openriset/.github/tree/main/profile/README.md
+            - article [ref=e87]:
+              - generic [ref=e88]:
+                - link "OpenRiset" [ref=e89] [cursor=pointer]:
+                  - /url: https://raw.githubusercontent.com/klubfisika/platform/main/public/kf13-logo.png
+                  - img "OpenRiset" [ref=e90]
+                - generic [ref=e91]:
+                  - heading "OpenRiset" [level=1] [ref=e92]
+                  - 'link "Permalink: OpenRiset" [ref=e93] [cursor=pointer]':
+                    - /url: "#openriset"
+                    - img [ref=e94]
+                - paragraph [ref=e96]:
+                  - strong [ref=e97]: Platform arsip & indeksasi riset terbuka Indonesia
+                - paragraph [ref=e98]:
+                  - emphasis [ref=e99]: Open science infrastructure — open untuk siapapun, dikelola komunitas
+                - paragraph [ref=e100]:
+                  - link "Website" [ref=e101] [cursor=pointer]:
+                    - /url: https://index.klubfisika.or.id
+                    - img "Website" [ref=e102]
+                  - link "License" [ref=e103] [cursor=pointer]:
+                    - /url: https://github.com/openriset/community/blob/main/LICENSE
+                    - img "License" [ref=e104]
+                  - link "Open Source" [ref=e105] [cursor=pointer]:
+                    - /url: https://github.com/openriset
+                    - img "Open Source" [ref=e106]
+              - separator [ref=e107]
+              - generic [ref=e108]:
+                - heading "🌐 Apa Itu OpenRiset?" [level=2] [ref=e109]
+                - 'link "Permalink: 🌐 Apa Itu OpenRiset?" [ref=e110] [cursor=pointer]':
+                  - /url: "#-apa-itu-openriset"
+                  - img [ref=e111]
+              - paragraph [ref=e113]:
+                - strong [ref=e114]: OpenRiset
+                - text: adalah platform infrastruktur sains terbuka yang dirancang untuk mengindeks, memverifikasi, dan mempublikasikan karya ilmiah dari komunitas riset Indonesia — mulai dari siswa SMA hingga peneliti senior.
+              - blockquote [ref=e115]:
+                - paragraph [ref=e116]:
+                  - text: Kalau SINTA adalah database untuk akademisi perguruan tinggi,
+                  - strong [ref=e117]: OpenRiset
+                  - text: adalah untukjenjang K-12 dan komunitas riset terbuka.
+              - separator [ref=e118]
+              - generic [ref=e119]:
+                - heading "🎯 Mengapa OpenRiset Diperlukan?" [level=2] [ref=e120]
+                - 'link "Permalink: 🎯 Mengapa OpenRiset Diperlukan?" [ref=e121] [cursor=pointer]':
+                  - /url: "#-mengapa-openriset-diperlukan"
+                  - img [ref=e122]
+              - table [ref=e125]:
+                - rowgroup [ref=e126]:
+                  - row "Problem Dampak" [ref=e127]:
+                    - columnheader "Problem" [ref=e128]
+                    - columnheader "Dampak" [ref=e129]
+                - rowgroup [ref=e130]:
+                  - row "Tidak ada platform yang serius mengindeks karya ilmiah tingkat sekolah Karya siswa hilang tanpa jejak" [ref=e131]:
+                    - cell "Tidak ada platform yang serius mengindeks karya ilmiah tingkat sekolah" [ref=e132]
+                    - cell "Karya siswa hilang tanpa jejak" [ref=e133]
+                  - row "Siswa berprestasi tidak punya portofolio riset terverifikasi Sulit untuk beasiswa & aplikasi kuliah" [ref=e134]:
+                    - cell "Siswa berprestasi tidak punya portofolio riset terverifikasi" [ref=e135]
+                    - cell "Sulit untuk beasiswa & aplikasi kuliah" [ref=e136]
+                  - row "Riset komunitas tersebar tanpa standar Tidak terverifikasi, tidak bisa disitasi" [ref=e137]:
+                    - cell "Riset komunitas tersebar tanpa standar" [ref=e138]
+                    - cell "Tidak terverifikasi, tidak bisa disitasi" [ref=e139]
+                  - row "Tidak ada infrastruktur riset terbuka untuk Indonesia Ketergantungan pada platform asing" [ref=e140]:
+                    - cell "Tidak ada infrastruktur riset terbuka untuk Indonesia" [ref=e141]
+                    - cell "Ketergantungan pada platform asing" [ref=e142]
+              - paragraph [ref=e143]:
+                - strong [ref=e144]: OpenRiset hadir untuk mengisi kekosongan itu.
+              - separator [ref=e145]
+              - generic [ref=e146]:
+                - heading "🏗️ Ekosistem" [level=2] [ref=e147]
+                - 'link "Permalink: 🏗️ Ekosistem" [ref=e148] [cursor=pointer]':
+                  - /url: "#️-ekosistem"
+                  - img [ref=e149]
+              - generic [ref=e151]:
+                - code [ref=e153]: "┌──────────────────────────────────────────────────────────────┐ │ OPENRISET ECOSYSTEM │ ├───────────────────────────┬──────────────────────────────────┤ │ PLATFORM RISET │ PLATFORM SOSIAL │ │ (openriset/index) │ (future: openriset/platform) │ │ │ │ │ 📄 Karya terindeks │ 👤 Profil & reputasi │ │ ✅ Verifikasi bertingkat │ 💬 Diskusi & kolaborasi │ │ 📊 H-index K-12 │ 🏅 Gamifikasi & endorsement │ ├───────────────────────────┴──────────────────────────────────┤ │ SATU IDENTITAS TERBUKA │ │ Registrasi dengan email kampus/school │ │ Karya terverifikasi di Index → portofolio di Platform │ └──────────────────────────────────────────────────────────────┘"
+                - button "Copy code to clipboard" [ref=e155] [cursor=pointer]:
+                  - img [ref=e156]
+              - separator [ref=e159]
+              - generic [ref=e160]:
+                - heading "🤝 Prinsip" [level=2] [ref=e161]
+                - 'link "Permalink: 🤝 Prinsip" [ref=e162] [cursor=pointer]':
+                  - /url: "#-prinsip"
+                  - img [ref=e163]
+              - table [ref=e166]:
+                - rowgroup [ref=e167]:
+                  - row [ref=e168]:
+                    - columnheader [ref=e169]
+                    - columnheader [ref=e170]
+                - rowgroup [ref=e171]:
+                  - row "🆓 Open Science Semua metadata dan proses verifikasi bersifat terbuka" [ref=e172]:
+                    - cell "🆓 Open Science" [ref=e173]:
+                      - text: 🆓
+                      - strong [ref=e174]: Open Science
+                    - cell "Semua metadata dan proses verifikasi bersifat terbuka" [ref=e175]
+                  - row "🧒 Kids-Safe Mode pengawasan untuk pengguna di bawah umur" [ref=e176]:
+                    - cell "🧒 Kids-Safe" [ref=e177]:
+                      - text: 🧒
+                      - strong [ref=e178]: Kids-Safe
+                    - cell "Mode pengawasan untuk pengguna di bawah umur" [ref=e179]
+                  - row "✅ Verifikasi Bertingkat Kredibilitas dari peer review, bukan self-claim" [ref=e180]:
+                    - cell "✅ Verifikasi Bertingkat" [ref=e181]:
+                      - text: ✅
+                      - strong [ref=e182]: Verifikasi Bertingkat
+                    - cell "Kredibilitas dari peer review, bukan self-claim" [ref=e183]
+                  - row "🌍 Indonesia-First Dibangun untuk konteks lokal, terbuka secara global" [ref=e184]:
+                    - cell "🌍 Indonesia-First" [ref=e185]:
+                      - text: 🌍
+                      - strong [ref=e186]: Indonesia-First
+                    - cell "Dibangun untuk konteks lokal, terbuka secara global" [ref=e187]
+                  - row "🤲 Non-Profit Tidak ada monetization, tidak jual data" [ref=e188]:
+                    - cell "🤲 Non-Profit" [ref=e189]:
+                      - text: 🤲
+                      - strong [ref=e190]: Non-Profit
+                    - cell "Tidak ada monetization, tidak jual data" [ref=e191]
+              - separator [ref=e192]
+              - generic [ref=e193]:
+                - heading "🛠️ Teknologi" [level=2] [ref=e194]
+                - 'link "Permalink: 🛠️ Teknologi" [ref=e195] [cursor=pointer]':
+                  - /url: "#️-teknologi"
+                  - img [ref=e196]
+              - table [ref=e199]:
+                - rowgroup [ref=e200]:
+                  - row "Layer Teknologi" [ref=e201]:
+                    - columnheader "Layer" [ref=e202]
+                    - columnheader "Teknologi" [ref=e203]
+                - rowgroup [ref=e204]:
+                  - row "Frontend (Index) SvelteKit 5 · Svelte 5 · TypeScript" [ref=e205]:
+                    - cell "Frontend (Index)" [ref=e206]
+                    - cell "SvelteKit 5 · Svelte 5 · TypeScript" [ref=e207]
+                  - row "Frontend (Platform) Qwik City · TypeScript · Tailwind CSS" [ref=e208]:
+                    - cell "Frontend (Platform)" [ref=e209]
+                    - cell "Qwik City · TypeScript · Tailwind CSS" [ref=e210]
+                  - row "Database PostgreSQL via Neon serverless" [ref=e211]:
+                    - cell "Database" [ref=e212]
+                    - cell "PostgreSQL via Neon serverless" [ref=e213]
+                  - row "ORM Drizzle ORM" [ref=e214]:
+                    - cell "ORM" [ref=e215]
+                    - cell "Drizzle ORM" [ref=e216]
+                  - row "Auth Better Auth · Cookie-based sessions" [ref=e217]:
+                    - cell "Auth" [ref=e218]
+                    - cell "Better Auth · Cookie-based sessions" [ref=e219]
+                  - row "i18n Paraglide (5 bahasa)" [ref=e220]:
+                    - cell "i18n" [ref=e221]
+                    - cell "Paraglide (5 bahasa)" [ref=e222]
+                  - row "Deployment Vercel Edge" [ref=e223]:
+                    - cell "Deployment" [ref=e224]
+                    - cell "Vercel Edge" [ref=e225]
+              - separator [ref=e226]
+              - generic [ref=e227]:
+                - heading "📖 Dokumentasi" [level=2] [ref=e228]
+                - 'link "Permalink: 📖 Dokumentasi" [ref=e229] [cursor=pointer]':
+                  - /url: "#-dokumentasi"
+                  - img [ref=e230]
+              - table [ref=e233]:
+                - rowgroup [ref=e234]:
+                  - row "Dokumen Lokasi" [ref=e235]:
+                    - columnheader "Dokumen" [ref=e236]
+                    - columnheader "Lokasi" [ref=e237]
+                - rowgroup [ref=e238]:
+                  - row "Visi & Roadmap VISION.md" [ref=e239]:
+                    - cell "Visi & Roadmap" [ref=e240]
+                    - cell "VISION.md" [ref=e241]:
+                      - link "VISION.md" [ref=e242] [cursor=pointer]:
+                        - /url: https://github.com/openriset/community/blob/main/docs/VISION.md
+                  - row "Arsitektur ARCHITECTURE.md" [ref=e243]:
+                    - cell "Arsitektur" [ref=e244]
+                    - cell "ARCHITECTURE.md" [ref=e245]:
+                      - link "ARCHITECTURE.md" [ref=e246] [cursor=pointer]:
+                        - /url: https://github.com/openriset/community/blob/main/docs/ARCHITECTURE.md
+                  - row "Panduan Kontribusi CONTRIBUTING.md" [ref=e247]:
+                    - cell "Panduan Kontribusi" [ref=e248]
+                    - cell "CONTRIBUTING.md" [ref=e249]:
+                      - link "CONTRIBUTING.md" [ref=e250] [cursor=pointer]:
+                        - /url: https://github.com/openriset/community/blob/main/CONTRIBUTING.md
+                  - row "Panduan Governance GOVERNANCE.md" [ref=e251]:
+                    - cell "Panduan Governance" [ref=e252]
+                    - cell "GOVERNANCE.md" [ref=e253]:
+                      - link "GOVERNANCE.md" [ref=e254] [cursor=pointer]:
+                        - /url: https://github.com/openriset/community/blob/main/docs/GOVERNANCE.md
+              - separator [ref=e255]
+              - generic [ref=e256]:
+                - heading "🌍 Inisiatif Global, Akar Lokal" [level=2] [ref=e257]
+                - 'link "Permalink: 🌍 Inisiatif Global, Akar Lokal" [ref=e258] [cursor=pointer]':
+                  - /url: "#-inisiatif-global-akar-lokal"
+                  - img [ref=e259]
+              - paragraph [ref=e261]:
+                - text: OpenRiset terinspirasi oleh gerakan
+                - strong [ref=e262]: Open Science
+                - text: dan
+                - strong [ref=e263]: Open Access
+                - text: "global, tapi dengan fokus pada konteks Indonesia:"
+              - list [ref=e264]:
+                - listitem [ref=e265]:
+                  - text: 📚
+                  - strong [ref=e266]: UNESCO Open Science Recommendation
+                  - text: — kami sejalan
+                - listitem [ref=e267]:
+                  - text: 🏫
+                  - strong [ref=e268]: K-12 Research
+                  - text: — gap yang tidak ditangani platform manapun
+                - listitem [ref=e269]:
+                  - text: 🤝
+                  - strong [ref=e270]: Community-Driven
+                  - text: — siapapun bisa berkontribusi sebagai reviewer atau kontributor
+              - separator [ref=e271]
+              - generic [ref=e272]:
+                - heading "📬 Hubungi Kami" [level=2] [ref=e273]
+                - 'link "Permalink: 📬 Hubungi Kami" [ref=e274] [cursor=pointer]':
+                  - /url: "#-hubungi-kami"
+                  - img [ref=e275]
+              - list [ref=e277]:
+                - listitem [ref=e278]:
+                  - strong [ref=e279]: Email
+                  - text: ":"
+                  - link "kf.teknis@gmail.com" [ref=e280] [cursor=pointer]:
+                    - /url: mailto:kf.teknis@gmail.com
+                - listitem [ref=e281]:
+                  - strong [ref=e282]: Website
+                  - text: ":"
+                  - link "https://index.klubfisika.or.id" [ref=e283] [cursor=pointer]:
+                    - /url: https://index.klubfisika.or.id
+                - listitem [ref=e284]:
+                  - strong [ref=e285]: GitHub
+                  - text: ":"
+                  - link "https://github.com/openriset" [ref=e286] [cursor=pointer]:
+                    - /url: https://github.com/openriset
+              - separator [ref=e287]
+              - paragraph [ref=e289]:
+                - emphasis [ref=e290]: Open Science Infrastructure for Indonesia
+                - text: 🌏
+          - generic [ref=e291]:
+            - heading "Popular repositories Loading" [level=2] [ref=e292]:
+              - text: Popular repositories
+              - generic [ref=e293]: Loading
+              - status
+            - list [ref=e294]:
+              - listitem [ref=e295]:
+                - generic [ref=e297]:
+                  - generic [ref=e298]:
+                    - link ".github" [ref=e300] [cursor=pointer]:
+                      - /url: /openriset/.github
+                    - generic [ref=e302]: Public
+                  - paragraph [ref=e303]: OpenRiset — Platform arsip & indeksasi riset terbuka Indonesia
+                  - paragraph
+              - listitem [ref=e304]:
+                - generic [ref=e306]:
+                  - generic [ref=e307]:
+                    - link "openriset" [ref=e309] [cursor=pointer]:
+                      - /url: /openriset/openriset
+                    - generic [ref=e311]: Public
+                  - paragraph [ref=e312]: OpenRiset — Platform arsip & indeksasi riset terbuka Indonesia
+                  - paragraph
+          - generic [ref=e314]:
+            - heading "Repositories" [level=3] [ref=e315]:
+              - img [ref=e316]
+              - text: Repositories
+            - search [ref=e320]:
+              - generic [ref=e321]:
+                - generic [ref=e322]:
+                  - searchbox "Find a repository…" [ref=e323]
+                  - img [ref=e324]
+                  - generic [ref=e326]: Loading
+                - generic [ref=e327]:
+                  - group [ref=e328]:
+                    - button "Type" [ref=e329] [cursor=pointer]: Type
+                  - group [ref=e331]:
+                    - button "Sort" [ref=e332] [cursor=pointer]: Sort
+            - generic [ref=e335]:
+              - generic [ref=e336]: Showing 2 of 2 repositories
+              - list [ref=e338]:
+                - listitem [ref=e339]:
+                  - generic [ref=e340]:
+                    - generic [ref=e341]:
+                      - generic [ref=e342]:
+                        - link "openriset" [ref=e343] [cursor=pointer]:
+                          - /url: /openriset/openriset
+                        - 'generic "Label: Public" [ref=e344]': Public
+                        - paragraph [ref=e345]: OpenRiset — Platform arsip & indeksasi riset terbuka Indonesia
+                      - generic:
+                        - link "openriset/openriset’s past year of commit activity":
+                          - /url: /openriset/openriset/graphs/commit-activity
+                        - generic:
+                          - link:
+                            - /url: /openriset/openriset/graphs/commit-activity
+                    - generic [ref=e346]:
+                      - generic "0 stars" [ref=e347]:
+                        - img [ref=e348]
+                        - text: "0"
+                      - generic "0 forks" [ref=e350]:
+                        - img [ref=e351]
+                        - text: "0"
+                      - link "0 issues" [ref=e353] [cursor=pointer]:
+                        - /url: /openriset/openriset/issues
+                        - img [ref=e354]
+                        - text: "0"
+                      - link "0 pull requests" [ref=e357] [cursor=pointer]:
+                        - /url: /openriset/openriset/pulls
+                        - img [ref=e358]
+                        - text: "0"
+                      - generic [ref=e360]: Updated May 22, 2026now
+                - listitem [ref=e361]:
+                  - generic [ref=e362]:
+                    - generic [ref=e363]:
+                      - generic [ref=e364]:
+                        - link ".github" [ref=e365] [cursor=pointer]:
+                          - /url: /openriset/.github
+                        - 'generic "Label: Public" [ref=e366]': Public
+                        - paragraph [ref=e367]: OpenRiset — Platform arsip & indeksasi riset terbuka Indonesia
+                      - generic:
+                        - link "openriset/.github’s past year of commit activity":
+                          - /url: /openriset/.github/graphs/commit-activity
+                        - generic:
+                          - link:
+                            - /url: /openriset/.github/graphs/commit-activity
+                    - generic [ref=e368]:
+                      - generic "0 stars" [ref=e369]:
+                        - img [ref=e370]
+                        - text: "0"
+                      - generic "0 forks" [ref=e372]:
+                        - img [ref=e373]
+                        - text: "0"
+                      - link "0 issues" [ref=e375] [cursor=pointer]:
+                        - /url: /openriset/.github/issues
+                        - img [ref=e376]
+                        - text: "0"
+                      - link "0 pull requests" [ref=e379] [cursor=pointer]:
+                        - /url: /openriset/.github/pulls
+                        - img [ref=e380]
+                        - text: "0"
+                      - generic [ref=e382]: Updated May 22, 20261 minute ago
+        - generic [ref=e384]:
+          - generic [ref=e386]:
+            - link "People" [ref=e387] [cursor=pointer]:
+              - /url: /orgs/openriset/people
+              - heading "People" [level=4] [ref=e388]
+            - paragraph [ref=e389]: This organization has no public members. You must be a member to see who’s a part of this organization.
+          - generic [ref=e392]:
+            - heading "Top languages" [level=4] [ref=e393]
+            - paragraph [ref=e394]: Loading…
+          - generic [ref=e397]:
+            - heading "Most used topics" [level=4] [ref=e398]
+            - paragraph [ref=e399]: Loading…
+  - contentinfo [ref=e400]:
+    - heading "Footer" [level=2] [ref=e401]
+    - generic [ref=e402]:
+      - generic [ref=e403]:
+        - link "GitHub Homepage" [ref=e404] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e405]
+        - generic [ref=e407]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e408]:
+        - heading "Footer navigation" [level=3] [ref=e409]
+        - list "Footer navigation" [ref=e410]:
+          - listitem [ref=e411]:
+            - link "Terms" [ref=e412] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e413]:
+            - link "Privacy" [ref=e414] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e415]:
+            - link "Security" [ref=e416] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e417]:
+            - link "Status" [ref=e418] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e419]:
+            - link "Community" [ref=e420] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e421]:
+            - link "Docs" [ref=e422] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e423]:
+            - link "Contact" [ref=e424] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e425]:
+            - button "Manage cookies" [ref=e427] [cursor=pointer]
+          - listitem [ref=e428]:
+            - button "Do not share my personal information" [ref=e430] [cursor=pointer]

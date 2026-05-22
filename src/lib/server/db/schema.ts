@@ -1,9 +1,15 @@
-import { pgTable, serial, integer, text } from 'drizzle-orm/pg-core';
-
-export const task = pgTable('task', {
-	id: serial('id').primaryKey(),
-	title: text('title').notNull(),
-	priority: integer('priority').notNull().default(1)
-});
-
-export * from './auth.schema';
+export { user as users, session as sessions, account as accounts, verification as authVerifications } from './auth.schema';
+export { profiles, profilesRelations } from './tables/profiles';
+export { institutions, institutionsRelations } from './tables/institutions';
+export { researchWorks, researchWorksRelations } from './tables/research_works';
+export { authors, authorsRelations } from './tables/authors';
+export { categories, categoriesRelations, workCategories, workCategoriesRelations } from './tables/categories';
+export { tags, tagsRelations, workTags, workTagsRelations } from './tables/tags';
+export { verifications, verificationsRelations } from './tables/verifications';
+export { citations, citationsRelations } from './tables/citations';
+export { reviews, reviewsRelations } from './tables/reviews';
+export { competitions, competitionsRelations, workCompetitions, workCompetitionsRelations } from './tables/competitions';
+export { mentorships, mentorshipsRelations } from './tables/mentorships';
+export { files, filesRelations } from './tables/files';
+export { workLikes, workLikesRelations } from './tables/work_likes';
+export { auditLogs, auditLogsRelations } from './tables/audit_logs';
