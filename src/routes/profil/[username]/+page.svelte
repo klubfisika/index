@@ -85,7 +85,7 @@
 									</div>
 								</div>
 								<div class="flex items-center gap-2 shrink-0">
-									{#if work.citationCount > 0}
+									{#if work.citationCount && work.citationCount > 0}
 										<span class="text-xs text-slate-400">{work.citationCount} sitasi</span>
 									{/if}
 									<svg class="w-4 h-4 text-slate-300" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>
